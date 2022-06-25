@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/Intro.ttf.woff") format("woff"), url("../fonts/Intro.ttf.svg") format("svg"), url("../fonts/Intro.ttf.eot");
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__top {
+  height: 40px;
+  display: flex;
+  border-bottom: #E5E5E5 solid 1px;
+}
+.header__top .header__vr {
+  align-self: center;
+  margin-left: 45%;
+  font-family: "Helvetica";
+  color: #6e6e6e;
+}
+
+.header__buttons {
+  display: flex;
+  align-self: center;
+  margin-left: 20px;
+}
+.header__buttons .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.header__buttons .header__buttons_red {
+  background-color: rgb(247, 76, 54);
+}
+.header__buttons .header__buttons_yellow {
+  background-color: rgb(252, 215, 53);
+}
+.header__buttons .header__buttons_green {
+  background-color: rgb(82, 192, 67);
+}
+
+.main {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main__header {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #5222D0;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main__header-bucket {
+  width: 115px;
+  height: 38px;
+}
+
+.btn:hover {
+  background: rgba(78, 32, 194, 0.8352941176);
+}
+
+.btn:active {
+  background: #865dee;
+}
+
+.btn_title {
+  text-decoration: none;
+  color: white;
+  font-family: "Intro";
+  font-size: 13px;
+  align-self: center;
+}
+
+.main__header-bucket_btn {
+  margin-right: 5px;
+}
+
+.main__header-bucket_icon {
+  width: 14px;
+  height: 14px;
+  align-self: center;
+  justify-self: end;
+  margin-top: -7px;
+}
+
+.about__title {
+  font-family: "Intro";
+  font-size: 60px;
+  line-height: 120%;
+  margin-left: 45px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  row-gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+.boxes .about__box {
+  width: 365px;
+  height: 100%;
+  align-content: end;
+}
+.boxes .rec {
+  background-color: #EC615B;
+  width: 365px;
+  height: 233px;
+  position: absolute;
+}
+.boxes .about__img {
+  position: relative;
+}
+.boxes .about__subtitle {
+  font-family: "Intro";
+  font-size: 30px;
+  line-height: 120%;
+}
+.boxes .about__text {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 160%;
+}
+.boxes .content_2 {
+  margin-top: -22px;
+}
+.boxes .content_3 {
+  margin-top: -9px;
+}
+.boxes .content_1 {
+  border: #EC615B solid 1px;
+  padding: 26px 40px 0px 35px;
+  margin-top: -20px;
+}
+.boxes .content_4 {
+  border: #EC615B solid 1px;
+  padding: -15px 26px 0 55px;
+  margin: -8px -26px 20px -55px;
+}
+.boxes .content_4 .content_4-inner {
+  margin-left: 55px;
+}
+.boxes .content_4 .inner {
+  width: 365px;
+  height: 178px;
+}
+.boxes .content_5 {
+  margin-top: -9px;
+}
+.boxes .form {
+  display: flex;
+  flex-direction: column;
+}
+.boxes .internal {
+  margin-left: 18px;
+  margin-top: -10px;
+}
+.boxes .internal .news {
+  color: white;
+}
+.boxes .internal .about__email {
+  width: 323px;
+  height: 50px;
+}
+.boxes .internal .placeholder {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  line-height: 160%;
+  color: black;
+  margin-top: -20px;
+  border: none;
+}
+.boxes .internal .about__btn {
+  width: 135px;
+  height: 38px;
+  margin-top: 23px;
+}
+
+.links {
+  margin-left: -10px;
+  margin-top: 86px;
+}
+.links .list {
+  list-style: none;
+  display: flex;
+}
+.links .link {
+  text-decoration: none;
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  color: black;
+  margin-right: 34px;
+}
+.links .links:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=style_page2.css.map */
